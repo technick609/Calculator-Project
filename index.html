@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <script src="https://kit.fontawesome.com/6b947b142f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <!--------------- Main container ----------------->
+    <main class="main-container">
+            <!--------------- WSA icon image ------------------>
+        <div class="wsa-icon-container">
+            <img src="Wsa.png" alt="WSA icon" class="wsa-icon">
+        </div>
+          <!----------------- Sub container -------------------->
+        <div class="sub-container">
+                <!------------ Header container ---------------->
+                <div class="header-container">
+                    <!---------- Calculator heading ------------->
+                    <h1 class="header">Calculator</h1>
+                </div>
+                    <!---------------- Calculator Container -------------->
+                <div class="calculator-container">
+                       <!------------- Background circle ---------------->
+                    <div class="background-circle"></div>
+                       <!------------ Calculator ----------------->
+                    <div class="calculator">
+                         <!----------- Output screen ------------>
+                        <div class="output-field-container">
+                            <input type="text"  class="output-field" id="display" readonly>
+                            <input type="text" class="input-field" id="input-screen" placeholder="0" readonly>
+
+                        </div>
+                           <!----------- Button row-1 ----------->
+                        <section class="button-row">
+                            <button class="clear-icon bg-icon"><i class="fa-solid fa-c"></i></button>
+                            <button class="delete-icon bg-icon"><i class="fa-solid fa-delete-left"></i></button>
+                            <button class="percent-icon bg-icon"><i class="fa-solid fa-percent"></i></button>
+                        </section> 
+                           <!----------- Button row-2 ----------->
+                           <section class="button-row">
+                            <button>(</button>
+                            <button>)</button>
+                            <button class="exponent-icon">^</button>
+                            <button class="toggle-sign-icon bg-icon"><i class="fa-solid fa-plus-minus"></i></button>
+                            <button class="sqrroot-icon bg-icon"><i class="fa-solid fa-square-root-variable"></i></button>
+                        </section>     
+                           <!----------- Button row-3 ----------->
+                        <section class="button-row">
+                            <button>7</button>
+                            <button>8</button>
+                            <button>9</button>
+                            <button class="divide-icon bg-icon"><i class="fa-solid fa-divide"></i></button>
+                            <button class="modulus-icon bg-icon"><i class="fun">M</i><i class="fun">O</i><i class="fun">D</i></button>
+                        </section>   
+                           <!----------- Button row-4 ----------->
+                        <section class="button-row">
+                            <button>4</button>
+                            <button>5</button>
+                            <button>6</button>
+                            <button class="multiply-icon bg-icon"><i class="fa-solid fa-xmark"></i></button>
+                            <button class="reciprocal-icon bg-icon" style="color: #bd882a;">1/x</button>
+                        </section>   
+                           <!----------- Button row-5 ----------->
+                        <section class="button-row">
+                            <button>1</button>
+                            <button>2</button>
+                            <button>3</button>
+                            <button class="add-icon bg-icon"><i class="fa-solid fa-plus"></i></button>
+                            <button class="equals-icon bg-icon"><i class="fa-solid fa-equals"></i></button>
+                        </section>   
+                           <!----------- Button row-6 ----------->
+                        <section class="button-row">
+                            <button class="zero">0</button>
+                            <button>.</button>
+                            <button class="minus-icon bg-icon"><i class="fa-solid fa-minus"></i></button>
+                        </section>   
+                    </div>   
+                </div>
+        </div>
+        <footer>
+            &copy; 2024 WSA. All Rights Reserved
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
