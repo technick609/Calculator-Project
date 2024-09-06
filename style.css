@@ -173,7 +173,7 @@ footer{
 
 
 /* Making it responsive for tablet and mobile device screen */
-@media (max-width: 768px){
+@media only screen and (max-width: 768px){
     body{
         margin: auto;
         padding: 20px;
